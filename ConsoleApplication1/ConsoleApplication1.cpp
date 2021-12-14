@@ -3,10 +3,13 @@
 
 #include "pch.h"
 #include <iostream>
-
+#include <list>
+#include <vector>
+using namespace std;
 int main()
 {
-    std::cout << "Helloweda World!\n"; 
+	int *arr = new int[50]();
+	arr[40]=20;
 }
 
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
